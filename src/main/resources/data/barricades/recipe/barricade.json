@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "barricades:barricade",
+  "pattern": [
+    "A",
+    "A"
+  ],
+  "key": {
+    "A": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "barricades:barricade",
+    "count": 16
+  }
+}
