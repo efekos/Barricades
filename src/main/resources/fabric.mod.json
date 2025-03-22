@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "barricades",
+  "version": "${version}",
+  "name": "Barricades",
+  "description": "Classic wooden barricades!",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/barricades/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "dev.efekos.barricades.client.BarricadesClient"
+    ],
+    "main": [
+      "dev.efekos.barricades.Barricades"
+    ]
+  },
+  "mixins": [
+    "barricades.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
